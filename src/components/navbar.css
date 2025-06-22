@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.retro-navbar {
+  background: #e8e8fa;
+  border-bottom: 4px solid #a695d1;
+  box-shadow: 0 5px 0 #b3b3e6;
+  font-family: 'Press Start 2P', monospace;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.retro-navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 28px 18px 28px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.retro-navbar-brand {
+  font-size: 20px;
+  color: #262563;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 0 #fff, 2px 2px 0 #b4e0fa;
+}
+
+.retro-btn {
+  background: #b4e0fa;
+  color: #262563;
+  border: 3px solid #262563;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: 0;
+  box-shadow: 2px 2px 0 #b4e0fa;
+  margin-left: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+.retro-btn:hover {
+  background: #262563;
+  color: #fff;
+  border-color: #334fff;
+}

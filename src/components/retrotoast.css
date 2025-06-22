@@ -1,0 +1,38 @@
+.retro-toast {
+  position: fixed;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f4f3ec;
+  border: 3px solid #262563;
+  box-shadow: 6px 6px 0 #b4e0fa;
+  font-family: 'Press Start 2P', monospace;
+  color: #1a1258;
+  font-size: 13px;
+  padding: 20px 32px 18px 32px;
+  z-index: 9999;
+  border-radius: 0;
+  min-width: 260px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.retro-toast-close {
+  background: #a4c6fa;
+  border: 2px solid #262563;
+  color: #262563;
+  font-family: inherit;
+  padding: 6px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0 #716f8c;
+}
+.retro-toast-close:hover {
+  background: #262563;
+  color: #fff;
+  border-color: #334fff;
+}

@@ -1,0 +1,26 @@
+.mainback {
+    background-color: rgb(86, 176, 197);
+
+}
+
+.retro-btn {
+  background: #b4e0fa;
+  color: #de690a;
+  border: 3px solid #262563;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 #b4e0fa;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 #fff;
+  letter-spacing: 1px;
+}
+.retro-btn:hover {
+  background: #262563;
+  color: #fff;
+  border-color: #334fff;
+}

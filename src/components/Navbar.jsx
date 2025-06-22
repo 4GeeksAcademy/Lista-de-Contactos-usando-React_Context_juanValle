@@ -1,19 +1,15 @@
 import { Link } from "react-router-dom";
+import "./navbar.css"; // Asegúrate de importar el CSS retro
 
 export const Navbar = () => {
-
-	return (
-		<nav className="navbar navbar-light bg-light">
-			<div className="container">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
-			</div>
-		</nav>
-	);
+  return (
+    <nav className="retro-navbar">
+      <div className="retro-navbar-container">
+        <Link to="/" className="retro-navbar-brand">
+          <span>Contact List</span>
+        </Link>
+        
+      </div>
+    </nav>
+  );
 };
