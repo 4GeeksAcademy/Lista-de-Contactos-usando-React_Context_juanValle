@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DeleteModal from "./DeleteModal";
 import { deleteContact } from "../api/contactsApi";
 import { FaTrash } from "react-icons/fa";
-import RetroToast from "./RetroToast"; // Importa el toast
+import RetroToast from "./RetroToast";
 import "./deletecontact.css";
 
 const DeleteContact = ({ contact, onDeleted }) => {

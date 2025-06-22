@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { getContacts } from "../api/contactsApi";
 import DeleteContact from "./DeleteContact";
 import { FaEdit } from "react-icons/fa";
-import "./contactlist.css"; // <-- tu CSS retro
+import "./contactlist.css"; 
 
 const ContactList = () => {
   const [contacts, setContacts] = useState([]);
@@ -33,7 +33,7 @@ const ContactList = () => {
           <div
             key={contact.id}
             className="retro-contact-row border-bottom py-3"
-            style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }} // Para que el avatar y datos estén alineados
+            style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }} 
           >
             {/* AVATAR AUTOMÁTICO */}
             <img

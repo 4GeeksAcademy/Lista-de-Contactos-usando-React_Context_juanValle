@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { postContacts } from "../api/contactsApi";
 import "./newcontact.css";
 import { Link } from "react-router-dom";
-import RetroToast from "./RetroToast"; // importa el toast
+import RetroToast from "./RetroToast";
 
 const NewContact = () => {
   const [form, setForm] = useState({
@@ -16,7 +16,7 @@ const NewContact = () => {
   const [toastMsg, setToastMsg] = useState(""); // estado para el toast
   const navigate = useNavigate();
 
-  // Maneja los cambios en los campos del formulario
+  // aqui se maneja los cambios en los campos del formulario
   function handleChange(e) {
     setForm({
       ...form,
@@ -24,7 +24,7 @@ const NewContact = () => {
     });
   }
 
-  // Maneja el envío del formulario
+  // aqui seManeja el envío del formulario
   async function handleSubmit(e) {
     e.preventDefault();
     const result = await postContacts(form); // Llama la función POST

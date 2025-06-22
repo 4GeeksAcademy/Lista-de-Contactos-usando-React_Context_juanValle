@@ -9,7 +9,6 @@ import { Layout } from "./pages/Layout";
 import { Home } from "./pages/Home";
 import { Single } from "./pages/Single";
 import { Demo } from "./pages/Demo";
-import  Params  from "./pages/Params";
 import NewContact from "./components/NewContact.jsx";
 import EditContact from "./components/EditContact.jsx";
 

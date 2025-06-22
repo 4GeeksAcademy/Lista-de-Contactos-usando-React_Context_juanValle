@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { putContact, getContacts } from "../api/contactsApi";
-import RetroToast from "./RetroToast"; // Importa el toast
+import RetroToast from "./RetroToast"; 
 import "./editcontact.css";
 
 const EditContact = () => {

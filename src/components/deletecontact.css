@@ -1,36 +1,36 @@
 /* Botón papelera retro */
 .retro-delete-btn {
-  background: #f7e0e0;              /* Fondo suave rojo */
-  border: 2px solid #b7001b;        /* Borde rojo fuerte */
-  border-radius: 2px;               /* Bordes cuadrados */
-  color: #b7001b;                   /* Icono rojo */
-  font-size: 20px;                  /* Tamaño icono grande */
+  background: #f7e0e0;              
+  border: 2px solid #b7001b;        
+  border-radius: 2px;               
+  color: #b7001b;                  
+  font-size: 20px;                 
   padding: 6px 12px;
-  box-shadow: 2px 2px 0 #d37676;    /* Sombra pixel retro */
+  box-shadow: 2px 2px 0 #d37676;    
   margin-left: 6px;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
   outline: none;
 }
 .retro-delete-btn:hover {
-  background: #fa0036;              /* Fondo rojo fuerte en hover */
-  color: #fff;                      /* Icono blanco en hover */
+  background: #fa0036;              
+  color: #fff;                      
   border-color: #262563;
 }
 
 /* MODAL retro */
 .retro-modal {
-  background: #f4f3ec;              /* Fondo claro tipo Windows 95 */
-  border: 4px solid #262563;        /* Borde azul clásico */
+  background: #f4f3ec;              
+  border: 4px solid #262563;        
   padding: 32px;
   font-family: 'Press Start 2P', monospace;
   font-size: 14px;
   color: #1a1258;
-  box-shadow: 8px 8px 0 #b4e0fa;    /* Sombra pixel */
+  box-shadow: 8px 8px 0 #b4e0fa;    
   max-width: 340px;
   margin: auto;
   border-radius: 0;
-  z-index: 2000;                    /* Por si hay overlays */
+  z-index: 2000;                  
 }
 
 /* Botones dentro del modal */
@@ -41,7 +41,7 @@
   margin-top: 24px;
 }
 
-/* Ejemplo para el botón cancelar en modal */
+/* botón cancelar en modal */
 .retro-icon-btn {
   background: #ebebf5;
   border: 2px solid #262563;

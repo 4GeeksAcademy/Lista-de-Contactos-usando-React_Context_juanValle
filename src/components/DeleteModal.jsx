@@ -1,6 +1,6 @@
 import React from "react";
-import { FaTrash } from "react-icons/fa"; // icono papelera
-import "./deletemodal.css"; // tu css retro para el modal
+import { FaTrash } from "react-icons/fa";
+import "./deletemodal.css"; 
 
 const DeleteModal = ({ contact, onClose, onConfirm }) => (
   <div className="retro-modal-overlay">
